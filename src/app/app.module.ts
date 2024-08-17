@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { TableComponent } from './employees/components/table/table.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {HoursPipe} from "./employees/pipes/hours.pipe";
+import { ChartComponent } from './employees/components/chart/chart.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     TableComponent,
-    HoursPipe
+    HoursPipe,
+    ChartComponent
   ],
   imports: [
     BrowserModule,
